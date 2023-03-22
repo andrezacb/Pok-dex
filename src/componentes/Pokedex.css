@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #6ab7f5,#fff);
+    min-height: 100vh;
+}
+main {
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+  }
+  
+  .pok{
+    width: 100%;
+    max-width: 425px;
+  }
+
+  .pokeimagem{
+    position: absolute;
+    bottom: 55%;
+    left: 15%;
+    transform: translate(63%,20%);
+    height: 18%;
+  }
+
+  .pokemonData{
+    position: absolute;
+    font-weight: bold;
+    color: #aaa;
+    bottom: 40.5%;
+    left: 35%;
+    font-size: clamp(8px , 5vw, 25px);
+    font-family:'Franklin Gothic Me7dium', 'Arial Narrow', Arial, sans-serif ;
+    }
+
+    .pokemonName{
+      color: #3a444d;
+      text-transform: capitalize;
+      padding:5px;
+      letter-spacing: 1px;
+    }
+
+    form{
+      position: absolute;
+      width: 65%;
+      bottom: 27.5%;
+      left: 13.5%;
+
+    }
+    .inputSearch{
+      width: 100%;
+      padding: 4%;
+      outline: none;
+      border: 2px solid #333;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border-radius: 5px;
+      font-weight: 600px;
+      color: #3a444d;
+      font-size: clamp(8px , 5vw, 1rem);
+      box-shadow: -3px 4px 0 #888,-5px 7px 0 #333;
+    }
+    .inputSearch:focus{
+     background: rgb(230, 230, 230);
+     box-shadow: -5px 5px 0 #7b7b7b,-8px 9px 0 #333;
+     height: 49px;
+     
+    }
+
+    .button{
+      position: absolute;
+      bottom: 10%;
+      left: 50%;
+      width: 65%;
+      display: flex;
+      gap: 15px;
+      transform: translate(-57%,0);
+    }
+
+    .botao{
+      width: 50%;
+      padding: 4%;
+      border: 2px solid black;
+     font-size: clamp(8px , 5vw, 1rem);
+     font-weight: bold;
+     color: white;
+     background: #444;
+     box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+     border-radius: 5px;
+    }
+
+    .botao:active{
+      box-shadow: inset -4px 4px #222;
+      font-size: 0.9rem;
+    }
